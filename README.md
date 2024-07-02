@@ -1,7 +1,7 @@
 # GUI-based-python-projects
 This repository consists of my projects that are based on python language :)
 
-------------------------------------------------------#ABOUT__PROJECTS-------------------------------------------------------------
+------------------------------------------------------#ABOUT__PROJECTS----------------------------------------------
 
 1 ] VIBE CORNER:-
 ---
@@ -24,6 +24,4 @@ This repository consists of my projects that are based on python language :)
         understand how things work in caeser ciphering while encrypting and decrypting messages in caeser ciphering.
         MODULES USED HERE:-
               1 ]Tkinter 
-FOR MORE DETAILS CONTACT :- 
 
-Aswin.luck543@gmail.com
