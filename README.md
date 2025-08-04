@@ -1,27 +1,65 @@
-# GUI-based-python-projects
-This repository consists of my projects that are based on python language :)
+# VIBE CORNER
 
-------------------------------------------------------#ABOUT__PROJECTS----------------------------------------------
+VIBE CORNER is a desktop music player application built using Python's Tkinter GUI toolkit and `pygame`.
+This was my very first programming project, created during my 12th grade.
+It marks the beginning of my journey into software development and ignited my passion for learning programming.
 
-1 ] VIBE CORNER:-
 ---
-       Vibe corner was my first project . In simple words vibe corner is place where you can vibe with your songs played in this project , vibe corner is a GUI bsed music
-       player. It is full and full programmed using python . In this project you'll have to select the folder that holds some .mp3 files/audios , Then the program would 
-       scan the selected folder for audios (only .mp3 files).The songs will be displayed in centre of the interface the list box . Then desired audio files can be selected 
-       and played .
-       MODULES USED HERE:-
-              1 ] tkinter
-              2 ] pygame
-              3 ] OS
-              4 ] time 
-              5 ] sys
-                                 THERE WILL BE A MORE USER FIRENDLY AND  DEVELOPED VERSION OF VIBE CORNER SOON !!
-                                 
-2 ] CAESER CIPHERING :- 
+
+## Description
+
+VIBE CORNER is a simple yet functional music player that allows users to load their favorite songs from a local folder and play them with an intuitive interface.
+It features playback controls, playlist management, dark mode, volume control, and a real-time clock.
+The project was developed entirely using Python, serving as a practical introduction to GUI programming, event handling, and working with external libraries.
+
 ---
-        Caeser ciphering is a more user-interactive[GUI] project to learn about caeser ciphering . As we know caeser ciphering was once a ciphering method used to send and 
-        recieve secret messaegs , there are some specific algorithms based on which the cryption works in caeser ciphering . Aim of this project is to mainly make the user
-        understand how things work in caeser ciphering while encrypting and decrypting messages in caeser ciphering.
-        MODULES USED HERE:-
-              1 ]Tkinter 
+
+## Features
+
+* Load songs from a selected folder.
+* Play, pause, stop, repeat, and navigate between songs.
+* Dark mode toggle for UI customization.
+* Real-time clock and date display.
+* Adjustable volume control.
+* Scrollable playlist display.
+* Menu bar with About and Credits sections.
+* Voice-over welcome message using `pyttsx3`.
+
+---
+
+## Requirements
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+`requirements.txt` includes:
+
+* `pygame` for audio playback.
+* `pyttsx3` for text-to-speech functionality.
+* Windows-specific dependencies for `pyttsx3` (if on Windows).
+
+---
+
+## How to Run
+
+1. Clone this repository or download the source code.
+2. Ensure Python 3.8+ is installed.
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Place your audio files in a folder.
+5. Run the application:
+
+   ```bash
+   python main.py
+   ```
+---
+## License
+
+Licensed under the [MIT License](LICENSE).
 
